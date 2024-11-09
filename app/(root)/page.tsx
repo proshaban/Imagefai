@@ -14,8 +14,9 @@ const Home = async ({ searchParams }: SearchParamProps) => {
     <>
       <section className="home">
         <h1 className="home-heading">
-          Unleash Your Creative Vision with Imaginify
+          Edit your photos With IMAGEFAI.
         </h1>
+        <p className="text-slate-50">Enjoy 1 free credit for editing.</p>
         <ul className="flex-center w-full gap-20">
           {navLinks.slice(1, 5).map((link) => (
             <Link
